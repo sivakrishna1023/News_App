@@ -1,10 +1,6 @@
-//import logo from './logo.svg';
 import './App.css';
-
-
 import React, { Component } from 'react'
 import Navbar from './Navbar';
-//import Newsitem from './Newsitem';
 import News from './News';
 import {
   BrowserRouter,
@@ -13,7 +9,7 @@ import {
 } from "react-router-dom";
 
 export default class App extends Component {
-  pagesize=8;
+  pagesize=5;
   render() {
     return (
       <div>
@@ -34,32 +30,3 @@ export default class App extends Component {
     )
   }
 }
-// business
-// entertainment
-// general
-// health
-// science
-// sports
-// technology
-// function App() {
-//   return (
-//     <div className="App">
-//       <header className="App-header">
-//         <img src={logo} className="App-logo" alt="logo" />
-//         <p>
-//           Edit <code>src/App.js</code> and save to reload.
-//         </p>
-//         <a
-//           className="App-link"
-//           href="https://reactjs.org"
-//           target="_blank"
-//           rel="noopener noreferrer"
-//         >
-//           Learn React
-//         </a>
-//       </header>
-//     </div>
-//   );
-// }
-
-//export default App;
