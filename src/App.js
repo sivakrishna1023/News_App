@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <div>
-      <Navbar/>
+      <Navbar/> <br /> <br /> <br />
       <BrowserRouter>
        <Routes>
        <Route exact path="/" element={<News key="general" pagesize={this.pagesize} country="in" category="general"/> } />
